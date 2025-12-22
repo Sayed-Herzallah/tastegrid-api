@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Example</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container my-5 text-center">
+    <div class="d-flex justify-content-center gap-2 mb-4">
+      <input type="text" id="searchInput" placeholder="ابحث عن وصفة..." class="form-control w-50">
+      <button id="searchBtn" class="btn btn-primary">Search</button>
+    </div>
+    <div class="row" id="data"></div>
+  </div>
+  <div class="loading" d-none>
+    <span class="loader"></span>
+  </div>
+  <div class="error">
+    <img src="" alt="" srcset="" class="img">
+  </div>
+
+ <script src="api.js"></script>
+
+</body>
+</html>
