@@ -5,8 +5,7 @@ A Node.js & Express API backend that powers the TasteGrid recipe sharing platfor
 ---
 
 ## 📌 Overview
-
-**TasteGrid-Api** is a structured RESTful backend designed for food communities. Users can register accounts, publish recipes, filter dishes by ingredients, and leave comments or star reviews. The architecture separates routing, business layers, and MongoDB persistence.
+TasteGrid-Api is a structured RESTful backend designed for food communities. Users can register accounts, publish recipes, filter dishes by ingredients, and leave comments or star reviews. The architecture separates routing, business layers, and MongoDB persistence.
 
 ---
 
@@ -22,8 +21,7 @@ A Node.js & Express API backend that powers the TasteGrid recipe sharing platfor
 
 ---
 
-## 🚀 Key Features
-
+## 🚀 Core Features
 * 🍕 **Recipe Management:** Full CRUD operations for recipes (with image URLs, ingredients, steps).
 * 🔐 **Secure Logins:** Password hashing with bcrypt and route access via JWT.
 * 💬 **Social Actions:** Like, comment, and rate recipe listings.
@@ -31,13 +29,28 @@ A Node.js & Express API backend that powers the TasteGrid recipe sharing platfor
 
 ---
 
-## 👨&zwj;💻 Author
-
-**Sayed Herzallah**  
-Backend Developer — Node.js | Express
+## ⚙️ Setup & Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sayed-Herzallah/TasteGrid-Api.git
+   ```
+2. Install npm dependencies:
+   ```bash
+   npm install
+   ```
+3. Configure environment variables (create `.env` file):
+   ```env
+   PORT=5000
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret_key
+   ```
+4. Run server locally:
+   ```bash
+   npm run dev
+   ```
 
 ---
 
-## ⭐ Support
-
-If you find this project useful, consider giving it a star on GitHub.
+## 👨‍💻 Author
+**Sayed Herzallah**  
+Full Stack Developer
